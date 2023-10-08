@@ -1,0 +1,539 @@
+*{
+    margin : 0;
+    font-family : Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+/**** NAVIGATION *****/
+.navbar{
+    height : 60px;
+    background-color : #0f1111;
+    color : white;
+    display : flex;
+    align-items : center;
+    justify-content : space-evenly;
+}
+
+/* box-1*/
+.nav-logo{
+    height : 50px;
+    width : 100px;
+}
+
+.logo{
+   background-image : url("amazon_logo.png");
+   background-size : cover;
+   height : 50px;
+   width : 100%;
+}
+
+.border {
+    border : 1.5px solid transparent;
+    height : 50px;
+}
+
+.border:hover{
+    border : 1.5px solid white;
+}
+
+/*box-2*/
+.nav-address{
+    display : flex;
+}
+
+.delivery-to{
+    color : #ccc;
+    font-size : 0.85rem;
+    margin-left : 3px;
+}
+
+.delivery-country{
+    color: white;
+    font-size : 1rem;
+    margin-left : 3px;
+    margin-bottom : 0px;
+}
+
+/*box-3*/
+.nav-search{
+    justify-content : center;
+    display : flex;
+    width : 1000px;
+    height : 40px;
+    border-radius : 4px;
+}
+
+.all-select{
+    background-color : #f3f3f3;
+    height : 40px;
+    width : 50px;
+    text-align : center;
+    border-top-left-radius : 4px;
+    border-bottom-left-radius : 4px;
+}
+
+.search-input{
+    width : 910px;
+    height : 38px;
+    font-size : 0.85rem;
+    border : none;
+}
+
+.search-icon button{
+    width : 45px;
+    height : 40px;
+    border : none;
+    font-size : 1.2rem;
+    background-color : rgb(227, 190, 3);
+    border-top-right-radius : 4px;
+    border-bottom-right-radius : 4px;
+}
+
+.nav-search:hover{
+    border : 5px solid rgb(227, 190, 3);
+}
+
+
+/*box-4*/
+.language{
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.select-language{
+   background-color : #0f1111;
+   color : white;
+   font-weight : bold;
+   text-align : left;
+   width : 50px;
+   height : 40px;
+   border : none;
+}
+
+.select-language:hover{
+   border : 1.5px solid white;
+   border-radius: 0%;
+}
+
+/*box-5*/
+.nav-signin span{
+    font-size : 0.7rem;
+}
+
+.nav-account{
+    font-size : 0.85rem;
+    font-weight : bold;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    margin-right : 3px;
+}
+
+.nav-signin:hover{
+   border : 1.5px white solid;
+}
+
+/*box-6*/
+.nav-return span{
+    font-size : 0.7rem;
+}
+
+.return-order{
+    font-size : 0.85rem;
+    font-weight : bold;
+}
+
+.nav-return:hover{
+    border : 1.5px white solid;
+}
+
+/*box-7*/
+.nav-cart{
+   display : flex;
+   justify-content : center;
+   align-items : center;   
+}
+
+.cart{
+     font-size : 1.5rem
+} 
+
+.cart-name{
+    font-weight : bold;
+}
+
+.nav-cart:hover{
+    border : 1.5px white solid;
+}
+
+/*** PANEL ****/
+.panel{
+    height : 40px;
+    background-color : #222f3d;
+    display : flex;
+    color : white;
+    align-items : center;
+    justify-content : left;
+}
+
+.panel-all{
+    margin-left : 70px;
+    margin-right : 20px;
+    justify-content : left;
+}
+
+.panel-ops{
+    display : flex;
+    width : 81%;
+    font-size : 0.95rem;
+    align-items : center;
+    justify-content : left;
+}
+
+.panel-ops>div{
+    margin-right : 20px;
+}
+
+.border1:hover{
+    border : 1.5px white solid;
+    height : 40px;
+    display : flex;
+    align-items: center;
+}
+
+
+/*** Pre Main **/
+
+.premain-class{
+    background-color : #f5f6f6;
+    display : flex;
+    justify-content : center;
+}
+
+.premain{
+    background-image : url("pre_main.jpg");
+    background-size : cover;
+    height : 400px;
+    width : 88%;
+    display : flex;
+    justify-content: center;
+    align-items : end;
+}
+
+.premain-message{
+    font-size : 0.85rem;
+    background-color : #f5f6f6;
+    color : black;
+    height : 40px;
+    width : 95%;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    margin-bottom : 60px;
+}
+
+.premain-message a{
+    color : #007185;
+}
+
+/*** Shop options ***/
+.shop-ops-row{
+    background-color : #f5f6f6;
+    display : flex;
+    justify-content : space-evenly;
+} 
+
+.shop-ops-in{
+    margin : 2rem;
+    height : 400px;
+    width : 88%;
+    display : flex;
+    justify-content: space-evenly;
+}
+
+.ops{
+    background-color : white;
+    height : 380px;
+    width : 22%;
+    padding: 20px 0px 15px;
+}
+
+.ops p{
+    font-weight : bold;
+    font-size : 25px;
+    display : flex;
+    align-items: center;
+    justify-content: left;
+    margin-left : 1rem;
+    margin-bottom : 1rem;
+}
+
+.ops img{
+    height : 290px;
+    width : 95%;
+    display : flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.ops a{
+    margin-top : 1rem;
+    margin-left : 1rem;
+    display : flex;
+    align-items: center;
+    justify-content: left;
+    color : #007185;
+    text-decoration : none;
+}
+
+.ops a:hover{
+    color : red;
+}
+
+.frequent-main{
+    background-color : #f5f6f6;
+    height : 450px;
+    display : flex;
+    align-items : center;
+    justify-content: center;
+}
+
+.frequent-purchase{
+    height : 300px;
+    width : 83.7%;
+    background-color: white;
+}
+
+.frequent-purchase p{
+   color : black;
+   font-weight : bold;
+   font-size : 25px;
+   margin : 20px;
+}
+
+.frequent-images{
+    display : flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/** main-sign-in**/
+
+.main-sign-in
+{
+    height : 130px;
+    background-color : white;
+}
+
+.main-p1{
+    margin-top : 40px;
+    border-top : 1px #b2b7b7 solid;
+    font-size : 14px;
+    display : flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.main-p1 p{
+    margin-top : 50px;
+    font-weight : bold;
+    margin-bottom : 5px;
+}
+
+.main-p2{
+    font-size : 14px;
+    display : flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.main-p2 button{
+    font-size : 14px;
+    font-weight : bold;
+    margin-bottom : 5px;
+    background-color :rgb(227, 190, 3);
+    border : 1px goldenrod solid;
+    height : 30px;
+    width : 220px;
+    border-bottom : 1px #b2b7b7 solid;
+    border-radius: 5px;
+}
+
+.main-p3{
+    font-size : 12px;
+    display : flex;
+    align-items:center;
+    justify-content: center;
+    border-bottom : 1px #b2b7b7 solid;
+}
+
+.main-p3 p{
+    margin-bottom: 20px;
+    font-weight : bold;
+}
+
+.main-p3 a{
+    color : #007185;;
+    text-decoration : none;
+}
+
+.main-p3 a:hover{
+    color: red;
+}
+
+/*** footer ***/
+
+/** panel-1 ***/
+
+footer{
+    margin-top : 50px;
+}
+
+.foot-panel-1{
+   background-color: #37475a;
+   color : white;
+   height : 50px;
+   display : flex;
+   justify-content : center;
+   align-items : center;
+   font-size : 0.85rem;
+}
+
+.foot-panel-1:hover{
+    background-color : #37475ae8;
+}
+
+/** panel-2 **/
+.foot-panel-2{
+    background-color : #222f3d;
+    height : 400px;
+    display : flex;
+    justify-content : center;
+}
+
+.foot-panel-2-in{
+    width : 80%;
+    display : flex;
+    justify-content : space-evenly;
+}
+
+.foot-ref{
+    margin-top : 50px;
+}
+
+.foot-ref p{
+    color : white;
+    font-weight : bold;
+}
+
+.foot-ref a{
+    margin-top : 15px;
+    display: block;
+    color : #ddd;
+    font-size : 0.85rem;
+    text-decoration : none;
+}
+
+.foot-ref a:hover{
+    text-decoration : #ddd underline;
+}
+
+
+/*** foot pane-3 ***/
+.foot-panel-3{
+    background-color : #222f3d;
+    height : 100px;
+    width : 100%;
+    display : flex;
+    align-items : center;
+    justify-content: center;
+}
+
+.foot-panel-3 .az-out{
+    height : 50px;
+    width : 200px;
+}
+
+.foot-panel-3 .az-logo{
+    background-image : url("amazon_logo.png");
+    background-size : cover;
+    height : 50px;
+    width : 100%;
+}
+
+.foot-panel-3 div{
+    margin-right : 80px;
+}
+
+.foot-panel-3 button{
+    margin-left : 10px;
+    background-color : #222f3d;
+    color : #ddd;
+    height : 30px;
+    width : 180px;
+    border : 0.5px #ddd solid;
+    border-radius: 3px;
+}
+
+/*** Panel-4 ***/
+.foot-panel-4{
+    background-color : #0f1111;
+    height : 120px;
+    display : flex;
+    align-items : center;
+    justify-content : space-evenly;
+}
+
+.foot-panel-4-in{
+    display : flex;
+    align-items : center;
+    justify-content : space-evenly;
+}
+
+.foot-panel-4-in .services{
+    margin : 50px;
+}
+
+.foot-panel-4-in .services a{
+    color : rgb(179, 176, 176);
+    text-decoration : none ;
+    font-size : 0.65rem;
+}
+
+.foot-panel-4-in .services a:hover{
+    text-decoration : rgb(179, 176, 176) underline ;
+}
+
+.foot-panel-4-in .services p{
+    color : #ddd;
+    font-size : 0.80rem;
+}
+
+/*** Panel-5 ***/
+.foot-panel-5{
+    background-color : #0f1111;
+    height : 80px;
+    width : 100%;
+    display : flex;
+    align-items : center;
+    justify-content: center;
+}
+
+.foot-panel-5 p{
+    color : #ddd;
+    font-size : 0.80rem;
+    text-align : center;
+    margin : 20px;
+}
+
+.foot-panel-5 a{
+    color : #ddd;
+    font-size : 0.80rem;
+    text-decoration : none;
+    margin : 15px;
+}
+
+.foot-panel-5 a:hover{
+    text-decoration : #ddd underline;
+}
